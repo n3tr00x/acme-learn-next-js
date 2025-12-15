@@ -5,6 +5,8 @@ import styles from '@/app/ui/home.module.css'
 import { lusitana } from './ui/fonts'
 import Image from 'next/image'
 
+console.log(process.env.POSTGRES_URL!)
+
 export default function Page() {
   return (
     <main className="flex min-h-screen flex-col p-6">
